@@ -1,0 +1,7 @@
+def sphere_volume(radius):
+    """
+    Calculates the volume of a sphere given the radius.
+    """
+    pi = 3.14159
+    volume = (4 / 3) * pi * (radius ** 3)
+    return volume
